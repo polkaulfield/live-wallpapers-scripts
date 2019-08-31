@@ -1,0 +1,13 @@
+( if 
+( begin 
+( contains ( application_name ) "MPV Wallpaper" )
+) 
+( begin 
+( undecorate )
+( maximize )
+( wintype "desktop" )
+( stick )
+( below )
+( println "match" )
+)
+)
